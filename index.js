@@ -1,7 +1,7 @@
 const mongoose=require('mongoose');
 // const { stringify } = require('querystring');
 const port=80;
-mongoose.connect('mongodb://admin:9675:172.30.164.3:27017/mongodb',
+mongoose.connect('mongodb://admin:9675:172.30.164.3/mongodb',
 {
     useNewUrlParser:true,useUnifiedTopology:true
 });
